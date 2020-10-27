@@ -86,7 +86,7 @@ DATABASES = {
         'NAME': 'todoDB',
         'USER':'admin',
         'PASSWORD':'admin',
-        'HOST':'172.25.8.19',
+        'HOST':'172.25.114.15',
         'PORT':'5432',
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
