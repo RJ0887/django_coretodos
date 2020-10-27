@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+{% block title %}
+Core Consulting - Home
+{% endblock %}
+
+{% block content %}
+	{% if user.is_authenticated %}
+        <h3>Home Page</h3>
+
+    {% else %}
+		<h3>You are not logged in. Please <a href="/login">Login Here</a></h3>
+	{% endif %}
+
+{% endblock %}

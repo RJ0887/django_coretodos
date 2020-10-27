@@ -1,0 +1,17 @@
+{% extends "main/base.html" %}
+
+{% block title%} 
+Core Consulting PLT - Login Here
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content%} 
+    <form method="post" class"form-group">
+        {% csrf_token %}
+        {{form|crispy}}
+        <button type="submit" class="btn btn-sucesss">Login</button>
+        <p>Don't have and account? Create one <a href="/register">Register Here</p>
+    </form>
+{% endblock %}
+
