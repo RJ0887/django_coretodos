@@ -26,7 +26,8 @@ SECRET_KEY = 'boncbiyng&thw!^d%d0dm2^gy25_@y(%mky*o=g!4!g*azs@8l'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'django-coretodos-djangotodo.apps-crc.testing'
+    'django-coretodos-djangotodo.apps-crc.testing',
+    'django-2coretodos-djangotodo.apps-crc.testing',
 ]
 
 
